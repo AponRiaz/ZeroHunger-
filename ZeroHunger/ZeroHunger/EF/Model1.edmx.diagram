@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8c9ad53d2c34f98bb49fc73f0ce9d10" Name="Diagram1">
+        <EntityTypeShape EntityType="ZeroHungerModel.CollectRequest" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.CollectRequestsFoodItem" Width="1.5" PointX="3.125" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.DeliveryConfirmation" Width="1.5" PointX="6.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.StoredFoodItem" Width="1.5" PointX="6.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.User" Width="1.5" PointX="3.125" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="ZeroHungerModel.FK_CollectRequests_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_CollectRequests_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_CollectRequestsFoodItems_CollectRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_DeliveryConfirmations_CollectRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_StoredFoodItems_CollectRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_DeliveryConfirmations_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
